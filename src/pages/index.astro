@@ -1,0 +1,19 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<div style="width: 1200px; height: 768px; background-color: tomato; padding: 40px;">
+			<div style="display: flex; flex-direction: column; border-radius: 20px; overflow: hidden;">
+      	<div style="flex-grow: 1; background-color:white; display: grid; place-content: center;">Something else</div>
+				<div style="height: 150px; background-color:#bfdbfe; border-top: 2px solid #60a5fa;"></div>
+			</div>
+    </div>
+	</body>
+</html>
